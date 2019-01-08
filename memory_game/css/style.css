@@ -79,7 +79,16 @@ img {
 
 }
 
-
+button {
+	text-transform: uppercase;
+	font-family: 'Audiowide', cursive;
+	font-size: 14px;
+	
+    width: 150px;    
+    position: inherit;
+    border: 5px solid #00A6B3; 
+    border-radius: 4px;
+}
 .copyright {
 	font-family: Raleway;
 	float: left;
@@ -104,3 +113,35 @@ font-size: 0;
 	font-weight: 700;
 
 }
+
+.game-controls {
+	color: #FFFFFF;
+	height: 60px;
+	padding: 10px;
+	
+
+}
+
+.game-button {
+	
+	display: flex;
+	justify-content: center;
+	float: left;
+	width: 50%;
+	height: 100%;	
+	overflow: none;
+}
+
+.score-board {
+	display: flex;
+	justify-content: center;	
+	text-transform: uppercase;
+	font-family: 'Audiowide', cursive;
+	font-size: 36px;
+	font-weight: 700;
+	color: #0D2c40;	
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
