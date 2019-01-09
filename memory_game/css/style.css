@@ -1,3 +1,9 @@
+* {
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
 	text-align: center;
 	margin: 0;
@@ -100,12 +106,12 @@ button {
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 .name {
@@ -117,9 +123,7 @@ font-size: 0;
 .game-controls {
 	color: #FFFFFF;
 	height: 60px;
-	padding: 10px;
-	
-
+	margin: 20px 10% 0;
 }
 
 .game-button {
@@ -129,7 +133,6 @@ font-size: 0;
 	float: left;
 	width: 50%;
 	height: 100%;	
-	overflow: none;
 }
 
 .score-board {

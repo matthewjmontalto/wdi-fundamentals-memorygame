@@ -22,12 +22,14 @@ var cards = [
 ];
 
 var cardsInPlay = [];
+
 var gameScore = 0;
+
 var checkForMatch = function () {
 if (cardsInPlay[0] === cardsInPlay[1]) {
 		gameScore += 1;
 		document.getElementById('score').innerHTML = "Score: " + gameScore; 
-		alert("You found a match! Your score is " + gameScore);
+		alert("You found a match! Your score is " + gameScore + ".");
 	} else {
 		alert("Sorry, try again.");
 	}
